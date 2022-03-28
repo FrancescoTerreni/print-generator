@@ -1,0 +1,83 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  margin: 50px 0;
+}
+
+table th {
+    text-align: left;
+}
+
+table th, table thead th {
+    color: #015f79;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+table>thead>tr>th, 
+table>tbody>tr>th, 
+table>tfoot>tr>th, 
+table>thead>tr>td, 
+table>tbody>tr>td, 
+table>tfoot>tr>td {
+    padding: 11px 10px;
+}
+
+svg {
+    padding: 4px;
+    height: 32px;
+}
+
+input[type=text], 
+input[type=password], 
+input[type=url], 
+input[type=tel], 
+input[type=search], 
+input[type=number], 
+input[type=datetime], 
+input[type=email] {
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c2c2c2;
+    border-radius: 1px;
+    font-size: 14px;
+    height: 32px;
+    line-height: 1.42857143;
+    padding: 0 9px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+select {
+    background: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c2c2c2;
+    border-radius: 1px;
+    font-size: 14px;
+    height: 32px;
+    line-height: 1.42857143;
+    padding: 5px 10px 4px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
